@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,800;0,900;1,800;1,900&family=Oswald:wght@200;300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;1,100;1,200;1,400;1,500;1,800&family=Roboto+Mono:ital,wght@0,500;1,400;1,600&family=Roboto:ital,wght@0,100;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    line-height: 1.5;
+    font-size: 1.1rem;
+    font-family: 'Poppins','Times New Roman', Times, serif;
+    text-align: center;
+    background: #30303d;
+}
+.container{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.joke-wrapper{
+    background-color: #fff;
+    padding: 3rem;
+    margin: 0.2rem;
+    border-radius: 0.5rem;
+}
+.title h1{
+    color: #5c80bc;
+    margin: 1rem 0;
+}
+#category{
+    font-size: 1.1rem;
+    text-transform: uppercase;
+}
+#setup{
+    margin: 1rem 0;
+}
+#delivery{
+    margin-bottom: 1.5rem;
+}
+#gen-joke-btn{
+    font-family: inherit;
+    font-size: 1.2rem 0.5rem;
+    padding: 0.5rem 1.8rem;
+    background: #5c80bc;
+    color: #fff;
+    border: 2px solid #5c80bc;
+    border-radius: 2rem;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+}
+#gen-joke-btn:hover{
+    background: #fff;
+    border-color: #5c80bc;
+    color: #5c80bc;
+}
+#gen-joke-btn:focus{
+    outline: 0;
+}
+@media (min-width:992px){
+    .joke-wrapper{
+        width: 680px;
+    }
+}
